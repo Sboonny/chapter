@@ -62,6 +62,7 @@ export class AuthResolver {
 
     const { token, code } = authTokenService.generateToken(user.email);
     if (isDev()) {
+      // \[\033[30m\]\[\033[37m\]\u@\h:\w\$ Octral escape squences
       console.log(
         `Code: ${code}\nhttp://localhost:3000/auth/token?token=${token}`,
       );
