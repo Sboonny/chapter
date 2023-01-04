@@ -576,10 +576,6 @@ export type QueryDashboardEventArgs = {
   id: Scalars['Int'];
 };
 
-export type QueryDashboardEventsArgs = {
-  limit?: InputMaybe<Scalars['Int']>;
-};
-
 export type QueryDashboardSponsorArgs = {
   id: Scalars['Int'];
 };

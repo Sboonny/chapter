@@ -5318,20 +5318,7 @@
           {
             "name": "dashboardEvents",
             "description": null,
-            "args": [
-              {
-                "name": "limit",
-                "description": null,
-                "type": {
-                  "kind": "SCALAR",
-                  "name": "Int",
-                  "ofType": null
-                },
-                "defaultValue": null,
-                "isDeprecated": false,
-                "deprecationReason": null
-              }
-            ],
+            "args": [],
             "type": {
               "kind": "NON_NULL",
               "name": null,
